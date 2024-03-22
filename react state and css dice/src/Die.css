@@ -1,0 +1,14 @@
+.die {
+    font-size: 10em;
+    padding: 0.25em;
+    color: #d12139;
+    border: 1px solid black;
+}
+
+.shaking {
+    transform: scale(1.1);
+}
+
+body {
+    padding: 150px;
+}

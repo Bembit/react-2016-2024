@@ -1,0 +1,12 @@
+.box {
+    width: 10em;
+    height: 10em;
+}
+
+.boxcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}

@@ -1,0 +1,185 @@
+.search__background {
+    min-height: 20vh;
+    background-image: linear-gradient(to bottom right, rgba(202, 5, 77, 1), rgba(152, 4, 58, .75));
+    position: relative;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    margin-bottom: 5rem;
+}
+
+.search__heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(239, 239, 239, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .5rem;
+    transition: all .4s;
+}
+
+.search__bar {
+    color: rgb(202, 5, 77);
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    letter-spacing: .5px;
+    font-weight: 700;
+    width: 30%;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    padding: 1.6rem;
+    padding-top: 2rem;
+    border: none;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.search__bar:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #ca054d;
+  }
+
+.photo__results {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.photo__results button {
+    border-radius: 3px;
+    width: 75px;
+    background-color: #f9f9f9;
+    color: #ca054d;
+    border: none;
+    padding: .5rem;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    text-transform: capitalize;
+}
+
+.photo__results button:not(:last-of-type) { 
+    margin-right: .5rem;
+}
+
+.photo__results button:hover {
+    cursor: pointer;
+    transform: translateY(1.5px);
+}
+
+.popular__tags {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.photo__results-container {
+    color: #ffffff;
+}
+
+.photo__results-container h4 span {
+    color: #f9f9f9;
+}
+
+.search-buttons {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: rgb(202, 5, 77);
+    background: #f9f9f9;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .55);
+}
+
+::placeholder {
+    color: rgb(202, 5, 77);
+}
+
+.search-buttons:nth-child(1) {
+    margin-bottom: 6rem;
+}
+
+.search-buttons:hover {
+    cursor: pointer;
+    transform: translateY(1.5px);
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .75);
+}
+
+.search-buttons-showall {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+/* nav bot button */
+
+.search__back-button {
+    position: fixed;
+    top: 87.5%;
+    left: 2.5%;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    background-color: rgba(202, 5, 77, 0.898);
+    border: 1px solid transparent;
+    font-weight: 500;
+    padding: 1rem 1.2rem;
+    letter-spacing: .8px;
+    text-align: center;
+    width: 150px;
+    transition: all .4s ease-in-out;
+    margin-left: 5px;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .55);
+}
+
+.search__back-button:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+.search__back-button:hover,
+.search__back-button:active {
+    background-color: inherit;
+    color: #ffffff;
+    /* font-weight: 700; */
+    border: 1px solid #f9f9f9;
+    letter-spacing: 1.4px;
+    transform: translateY(3px);
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .55);
+}
+
+@media(max-width: 600px) {
+    .search__background {
+        min-height: 35vh;
+    }
+    .search__heading {
+        font-size: 3rem;
+    }
+    .search__bar {
+        width: 95%;
+    }
+    /* .search-buttons-showall {
+        margin-top: 1rem;
+        margin-bottom: .5rem; 
+    } */
+}

@@ -1,0 +1,154 @@
+.hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), url();
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .9;
+}
+
+.hero__title {
+    text-transform: uppercase;
+    color: #ffffff;
+    position: absolute;
+    font-size: 4rem;
+    top: 47.5%;
+    right: 9%;
+    animation: 1s moveInBottom 0.5s forwards;
+    opacity: 0;
+}
+
+.hero__title-span {
+    position: relative;
+    padding: .3rem .6rem .3rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-image: linear-gradient(to right bottom, rgba(202, 5, 77, 0.701), rgba(202, 5, 77, 0.878)); 
+}
+
+.hero__title-light {
+    font-weight: 300;
+}
+
+.hero__title-heavy {
+    font-weight: 700;
+}
+
+.hero__title strong {
+    font-weight: 700;
+    position: absolute;
+    right: -10%;
+    top: 50%;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    opacity: .9;
+}
+
+.navigation__nav-item {
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    background-color: rgba(202, 5, 77, 0.898);
+    border: 1px solid transparent;
+    font-weight: 500;
+    padding: 1rem 1.2rem;
+    letter-spacing: .8px;
+    text-align: center;
+    width: 150px;
+    transition: all .4s ease-in-out;
+    margin-left: 5px;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .55);
+}
+
+.navigation__nav-item:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+.navigation__nav-item:hover,
+.navigation__nav-item:active {
+    background-color: inherit;
+    color: #ffffff;
+    /* font-weight: 700; */
+    border: 1px solid #f9f9f9;
+    letter-spacing: 1.4px;
+    transform: translateY(3px);
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .55);
+}
+
+.social-media {
+    position: absolute;
+    top: 0;
+    right: 4%;
+    font-size: 4rem;
+}
+
+.social-media svg:not(:last-of-type) {
+    margin-right: 5px;
+}
+
+.allphotos {
+    position: absolute;
+    bottom: 20%;
+    right: 6%;
+    display: inline-block;
+    padding: .5rem;
+    width: 225px;
+    border-radius: 3px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: white;
+    background-color: rgba(152, 4, 58, 0.871);
+    transition: all .3s ease-in-out;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .55);
+}
+
+.allphotos:hover {
+    color: rgba(152, 4, 58, 0.871);
+    background: #f9f9f9;
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .75);
+}
+  
+.allphotos__slide:link, .allphotos__slide:visited {
+    display: inline-block;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ffffff 50%);
+    background-size: 220%;
+    transition: all .4s;
+}
+  
+.allphotos__slide:hover, .allphotos__slide:active {
+    background-position: 100%;
+    transform: translateX(.5rem);
+}
+
+.mobile {
+    display: none;
+}
+
+@media(max-width: 775px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    .allphotos {
+        position: absolute;
+        bottom: 7.5%;
+        right: 6%; 
+    }
+    .hero__title {
+        position: absolute;
+        font-size: 4rem;
+        top: 64.5%;
+        right: 17.5%;
+    }
+}

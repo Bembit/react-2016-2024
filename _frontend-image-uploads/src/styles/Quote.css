@@ -1,0 +1,19 @@
+.quote {
+    /* font-family: 'Montez', cursive; */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.65)), url();
+    color: #ffffff;
+    min-height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    background-size: 200rem;
+    margin-bottom: 7.5rem;
+}
+
+.quote h1 {
+    margin: 0 auto;
+    align-self: center;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.823);
+}

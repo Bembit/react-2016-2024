@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Montez');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    background-color: #f5f5f5;
+    color: #ca054d;
+    /* height: 100vh; */
+    /* padding: 5rem; */
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
+
+p {
+    text-transform: lowercase;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

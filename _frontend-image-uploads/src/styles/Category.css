@@ -1,0 +1,96 @@
+.category {
+    margin-bottom: 3rem;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .25), rgba(255, 255, 255, .85));
+    box-shadow: 0 .5rem 4rem -.5rem rgba(202, 5, 77, .15);
+    transition: all 3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category__button {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 7.5rem;
+    font-weight: 700;
+}
+
+h4 a {
+    border-radius: 2.5px;
+    margin-left: .5rem;
+    font-size: 2rem;
+    padding: 1.25rem 2rem;
+    background-color: #ca054d;
+    border: 1px solid #ca054d;
+    color: #f9f9f9;
+    transition: all .3s ease-in-out;
+}
+
+h4 a:hover {
+    background-color: #f9f9f9;
+    color: #ca054d;
+
+}
+
+.heading {
+    margin-left: 3.5rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(202, 5, 77, 1), rgba(152, 4, 58, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .5rem;
+    transition: all .4s;
+}
+
+.heading:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, .2);
+    cursor: default;
+}
+
+.heading-button {
+    margin-right: 3.5rem;
+    padding: .5rem;
+    text-align: center;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: white;
+    background-color: rgba(152, 4, 58, 0.871);
+    transition: all .3s ease-in-out;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .55);
+}
+
+@media(max-width: 600px) {
+    .heading-button {
+        margin-right: 1rem;
+    }
+    .heading {
+        margin: 0 auto;
+    }
+}
+
+.heading-button:hover {
+    color: rgba(152, 4, 58, 0.871);
+    background: #f9f9f9;
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .75);
+}
+  
+.heading-button:link, .heading-button:visited {
+    display: inline-block;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ffffff 50%);
+    background-size: 220%;
+    transition: all .4s;
+}
+  
+.heading-button:hover, .heading-button:active {
+    background-position: 100%;
+    transform: translateX(.5rem);
+}

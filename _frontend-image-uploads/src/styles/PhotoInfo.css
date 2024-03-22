@@ -1,0 +1,98 @@
+.social {
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+.social svg {
+    margin-right: 2rem;
+    transition: all .4s ease-in-out;
+    color: #f5f5f5;
+}
+
+.social svg:hover {
+    cursor: pointer;
+    transform: translateY(1.5px);
+}
+
+.social .fa-thumbs-up:hover {
+    
+    color: #ffffff;
+}
+
+.social .fa-heart:hover {
+    color: #ffffff;
+}
+
+.photo__info {
+    display: flex;
+    border-radius: 2.5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color: rgba(202, 5, 77, 0.85);
+    margin-bottom: .5rem;
+}
+
+.photo__info-buttons {
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: rgba(152, 4, 58, 0.871);
+    background: #f9f9f9;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 .25rem 2rem rgba(0, 0, 0, .55);
+}
+
+.photo__info-buttons:hover {
+    cursor: pointer;
+    transform: translateY(1.5px);
+    box-shadow: 0 .5rem 4rem rgba(0, 0, 0, .75);
+}
+
+.photo__info-buttons:last-of-type {
+    margin-right: 1.5rem;
+}
+
+.photo__info-top {
+    position: relative;
+}
+
+.photo__info-bottom {
+    position: relative;
+}
+
+@media(max-width: 600px) {
+    .social {
+        font-size: 2.4rem;
+    }
+}
+
+.info__buttons:link,
+.info__buttons:visited {
+        display: inline-block; 
+        font-size: 3rem;
+        font-weight: 300;
+        padding: 1rem 2rem;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ffffff 50%);
+        background-size:  220%;
+        transition: all .4s;
+}
+
+.info__buttons:visited span {
+            margin-right: 1rem;
+            display: inline-block;
+}
+
+.info__buttons:hover,
+.info__buttons:active {
+    background-position: 100%;
+    color: #ffffff;
+    transform: translateX(1rem);
+}

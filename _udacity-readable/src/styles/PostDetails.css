@@ -1,0 +1,79 @@
+/* 
+postdetails__wrapper
+
+post__info
+
+post__info-vote
+
+post__info-container
+
+post__info-title
+
+post__info-misc
+
+post__info-body
+
+post__info-category--container
+
+post__info-category
+
+post__info__edit-delete--container
+
+post__info__edit-delete--right
+
+post__info__edit-delete
+
+post__info-edit
+
+post__info-delete
+
+*/
+
+.postdetails__wrapper {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post__info-container {
+    padding: 1rem;
+}
+
+.post__info-misc, .post__info-category {
+    padding: .5rem;
+}
+
+.post__info__edit-delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: .3rem;
+    padding-bottom: 2rem;
+}
+
+.post__info__edit-delete div {
+    margin-right: 1rem;
+}
+
+.post__info-heading--container {
+    padding-top: 3rem;
+}
+
+.post__info-body p {
+    line-height: 2.4rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.post__info-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    background-color: #ffffff;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+}

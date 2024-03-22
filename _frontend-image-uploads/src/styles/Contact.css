@@ -1,0 +1,50 @@
+.contact {
+    /* font-family: 'Montez', cursive; */
+    position: relative;
+    color: #ffffff;
+}
+
+.contact__details ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2.5rem;
+}
+
+.contact__details ul li {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.contact__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__heading {
+    margin-top: 5%;
+    text-transform: lowercase;
+    font-size: 8rem;
+}
+
+@media(max-width: 600px) {
+    .contact__heading {
+        margin-top: 20%;
+    }
+}
+
+.bg-video {
+    position: absolute;
+    top: 17.5%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    overflow: hidden;
+}
+.bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
