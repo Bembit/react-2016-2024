@@ -1,11 +1,10 @@
-## react-projects
+## react
 
-### React projects and studies from 2016 Hello World to date.
+### Archived collection of React projects and studies `from 2016 Hello World classes` to `hooks and typescript.`
 
-#### Split to 5 categories:
 1. 2017-2021 standalone projects.
 2. 2018 udacity bootcamp projects.
-3. 2022-2023 TypeScript smalls.
+3. 2022-2023 typescript smalls.
 4. 2018-2019 react: feature studies, first steps
 5. 2016-2017 deprecated: legacy, very first steps - they won't run.
 
@@ -18,9 +17,8 @@
 <img src="/zimages/13.png" width="30%">
 
 
-#### <a href="/_ecommerce-admin-base">**_ecommerce-admin-base**</a>
+#### <a href="/_ecommerce-admin-base">**react-playground**</a>
 - The moment of `"yeah, React is good now."`
-- I almost fully rebuilt my bootcamp "readable" project with Hooks in a few days.
 - CRUD, localstorage, modals, reusable forms, sorting, search.
 
 <img src="/zimages/9.png" width="30%">
@@ -33,7 +31,6 @@
 
 
 #### <a href="/_instagram-clone-firebase">**_instagram-clone-firebase**</a>
-- Nothing magical React wise here.
 - This was more about the start of my long lasting relationship with Google's `Firebase.`
 
 
@@ -88,8 +85,8 @@
 <img src="/zimages/3.png" width="30%">
 
 
-### 4. **react: legacy - they still run, 2018-19 era, maybe 20 with some hooks**
-### 5. **depr: legacy - won't run, 2016-17 era.**
+### <a href="/deprecated">**4. react: legacy - they still run, 2018-19 era, maybe 20 with some hooks**</a>
+### <a href="/deprecated">**5. deprecated: legacy - won't run, 2016-17 era.**</a>
 - These are `early concepts and studies of React` starting from late 2016, mid 2017.
 - Very surprised that some of these actually run, like this first todo.
 
